@@ -21,3 +21,6 @@ And then:
 * clone this repo to `$HOME/.emacs.d`
 * run emacs
 
+Also, some other packages you may want to install
+
+    el-get-install haskell-mode
