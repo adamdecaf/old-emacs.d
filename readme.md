@@ -21,6 +21,7 @@ And then:
 * clone this repo to `$HOME/.emacs.d`
 * run emacs
 
-Also, some other packages you may want to install
+Notes for myself of things to install
 
     el-get-install haskell-mode
+    apt-get install erlang-mode
