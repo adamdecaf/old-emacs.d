@@ -10,9 +10,11 @@ Here are a few common packages that you might need (you might need others):
     apt-get install texinfo git subversion cvs
     gem install rake
 
-or, this works also
+or, this works also (After adding the repo)
 
-    apt-get install emacs-snapshot
+    sudo add-apt-repository ppa:cassou/emacs
+    sudo apt-get update
+    sudo apt-get install emacs
 
 * for json-validate, install [trentm json](https://github.com/trentm/json)
 
