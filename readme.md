@@ -8,6 +8,7 @@ Here are a few common packages that you might need (you might need others):
     apt-get install libXpm-dev libjpeg-dev libpng-dev libgif-dev libtiff-dev
     apt-get install libncurses-dev
     apt-get install texinfo git subversion cvs
+    apt-get install rubygems
     gem install rake
 
 or, this works also (After adding the repo)
