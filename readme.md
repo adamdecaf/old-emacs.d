@@ -24,10 +24,15 @@ Then, pull down the repo and link it to emacs.
 
     git clone git@github.com:adamdecaf/emacs.d.git $HOME/.emacs.d
 
-And then:
-* install [emacs 24.1](http://www.gnu.org/software/emacs/), `./configure`, `make`, `sudo make install` or download using your favorite package manager
-* clone this repo to `$HOME/.emacs.d`
-* run emacs
+# Problems
+
+If you have issues with rinari, this should fix it.
+
+     git clone git://github.com/eschulte/rinari.git
+     cd rinari
+     git submodule init
+     git submodule update
+
 
 Notes for myself of things to install
 
