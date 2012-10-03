@@ -20,6 +20,10 @@ or, this works also (After adding the repo)
 * for json-validate, install [trentm json](https://github.com/trentm/json)
 * for markdown install with the following `apt-get install markdown`
 
+Then, pull down the repo and link it to emacs.
+
+    git clone git@github.com:adamdecaf/emacs.d.git $HOME/.emacs.d
+
 And then:
 * install [emacs 24.1](http://www.gnu.org/software/emacs/), `./configure`, `make`, `sudo make install` or download using your favorite package manager
 * clone this repo to `$HOME/.emacs.d`
