@@ -25,3 +25,6 @@ Notes for myself of things to install
 
     el-get-install haskell-mode
     apt-get install erlang-mode
+    el-get-install erlang-mode
+    el-get-install ruby-mode
+    el-get-install php-mode
