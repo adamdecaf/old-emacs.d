@@ -10,9 +10,9 @@
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
 
-(defvar mine-small-font "DejaVu Sans Mono Oblique 10 \"*The small font\"")
-(defvar mine-normal-font "DejaVu Sans Mono Oblique 10" "*The main font")
-(defvar mine-big-font "DejaVu Sans Mono Oblique 13" "*The big font")
+(defvar mine-small-font "Inconsolata 9" "*The small font")
+(defvar mine-normal-font "Inconsolata 10" "*The main font")
+(defvar mine-big-font "Inconsolata 11" "*The big font")
 
 ;; display settings
 (defun mine-use-small-font ()
