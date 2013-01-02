@@ -126,7 +126,7 @@
 (defalias 'qrr 'query-replace-regexp)
 
 ;; Midnight mode to clean up old buffers
-(require 'midnight)
+;(require 'midnight)
 
 (add-hook 'emacs-lisp-mode-hook '(lambda () (eldoc-mode t)))
 
