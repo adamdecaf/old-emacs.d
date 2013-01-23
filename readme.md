@@ -4,11 +4,7 @@ Inappropriately closely inspired by [rubbish](https://github.com/rubbish/rubbish
 
 Here are a few common packages that you might need (you might need others):
 
-    apt-get install libgtk2.0-dev
-    apt-get install libXpm-dev libjpeg-dev libpng-dev libgif-dev libtiff-dev
-    apt-get install libncurses-dev
-    apt-get install texinfo git subversion cvs
-    apt-get install rubygems rake
+    apt-get install libgtk2.0-dev libXpm-dev libjpeg-dev libpng-dev libgif-dev libtiff-dev libncurses-dev texinfo git subversion cvs rubygems rake
     gem install rake
 
 or, this works also (After adding the repo)
