@@ -11,7 +11,7 @@ or, this works also (After adding the repo)
 
     sudo add-apt-repository ppa:cassou/emacs
     sudo apt-get update
-    sudo apt-get install emacs-snapshot
+    sudo apt-get install emacs24
 
 * for json-validate, install [trentm json](https://github.com/trentm/json)
 * for markdown install with the following `apt-get install markdown`
