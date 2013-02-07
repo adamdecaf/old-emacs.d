@@ -155,6 +155,10 @@
 (setq battery-echo-area-format "Battery: %p%% %B")
 (setq battery-update-interval 10)
 
+;; Remote file editing
+(require 'tramp)
+(setq tramp-default-method "scp")
+
 ;; rcirc junk
 (setq rcirc-default-nick "adamdecaf")
 (setq rcirc-default-user-name "adamdecaf")
