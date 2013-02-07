@@ -158,6 +158,7 @@
 ;; Remote file editing
 (require 'tramp)
 (setq tramp-default-method "scp")
+(set-default 'tramp-default-proxies-alist (quote ((".*" "\\`root\\'" "/ssh:%h:"))))
 
 ;; rcirc junk
 (setq rcirc-default-nick "adamdecaf")
