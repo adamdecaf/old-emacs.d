@@ -37,3 +37,4 @@ Notes for myself of things to install
     el-get-install ruby-mode
     el-get-install php-mode
     el-get-install clojure-mode
+    el-get-install rainbow-mode
