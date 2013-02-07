@@ -4,18 +4,14 @@ Inappropriately closely inspired by [rubbish](https://github.com/rubbish/rubbish
 
 Here are a few common packages that you might need (you might need others):
 
-    apt-get install libgtk2.0-dev
-    apt-get install libXpm-dev libjpeg-dev libpng-dev libgif-dev libtiff-dev
-    apt-get install libncurses-dev
-    apt-get install texinfo git subversion cvs
-    apt-get install rubygems rake
+    apt-get install -y libgtk2.0-dev libXpm-dev libjpeg-dev libpng-dev libgif-dev libtiff-dev libncurses-dev texinfo git subversion cvs rubygems rake
     gem install rake
 
 or, this works also (After adding the repo)
 
     sudo add-apt-repository ppa:cassou/emacs
     sudo apt-get update
-    sudo apt-get install emacs-snapshot
+    sudo apt-get install emacs24
 
 * for json-validate, install [trentm json](https://github.com/trentm/json)
 * for markdown install with the following `apt-get install markdown`
@@ -40,3 +36,4 @@ Notes for myself of things to install
     el-get-install erlang-mode
     el-get-install ruby-mode
     el-get-install php-mode
+    el-get-install clojure-mode
