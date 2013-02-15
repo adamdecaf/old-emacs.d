@@ -65,6 +65,10 @@
                               :type github
                               :pkgname "rubbish/sbt.el"
                               :prepare (add-hook 'scala-mode-hook 'turn-on-sbt-mode))
+                       (:name scala-mode2
+                              :website "https://github.com/hvesalai/scala-mode2"
+                              :type github
+                              :pkgname "hvesalai/scala-mode2")
                        (:name json-validate
                               :website "https://github.com/jwinder/json-validate.el"
                               :description "Few useful commands for validating a buffer of json for correctness."
@@ -85,7 +89,7 @@
          paredit
 
          ;; scala
-         scala-mode
+         scala-mode2
          ;; ensime
 
          ;; ruby
