@@ -8,6 +8,7 @@
 (require 'mine-desktop)
 (require 'mine-pretty)
 (require 'mine-pkgmgt)
+(require 'mine-commands)
 
 ;; load files under custom/*.el
 (let ((custom-files (directory-files "~/.emacs.d/custom/" t "\.el$")))
